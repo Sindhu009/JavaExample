@@ -6,9 +6,9 @@ public class FinallyBlock {
 			int data=25/5;
 			System.out.println(data);
 		}
-		catch(NullPointerException e)
+		catch(Exception e)
 		{
-			System.out.println(e);
+			System.out.println("number shold not be divide by zero");
 		}
 		finally {
 			System.out.println(" finally block is alwys executed");

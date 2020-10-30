@@ -2,7 +2,7 @@ package xwork.com.FunctionalInterfaceFourTypes;
 
 import java.util.function.Supplier;
 
-public class Random {
+public class Random {// example for Supplier Interface
 	public static void main(String args[]) 
     { 
   

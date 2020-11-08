@@ -40,11 +40,6 @@ public class PhoneTester {
 			System.out.println(phoneArrayList);
 			
 			
-			//phoneArrayList.set(3 ,"Iphonexpro");
-			//System.out.println(" After updating ArrayList :" +phoneArrayList);
-			
-		//	PhoneArrayList.get(0);		
-			//System.out.println(" After change an 0th index in the ArrayList:" +PhoneArrayList);
 			
 			
 			System.out.println(phoneArrayList.get(3));

@@ -27,10 +27,21 @@ public class Statue implements Comparator<Statue> {
 	public String toString() {
 		return "Statue [brand=" + brand + ", inches=" + inches + "]";
 	}
+	
+	
+	public class SortKeybyBrand implements Comparator<Statue>{
+
+		@Override
+		public int compare(Statue o1, Statue o2) {
+		
+			return o1.getBrand()-o2.getBrand();
+		}
+		
+	}
 	@Override
-	public int compare(Statue arg0, Statue arg1) {
-		// TODO Auto-generated method stub
-		return 0;
+	public double compare(Statue arg0, Statue arg1) {
+		
+		return arg0.inches-arg1.inches;
 	}
 	
 	

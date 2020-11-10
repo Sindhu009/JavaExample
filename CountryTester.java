@@ -2,7 +2,6 @@ package xworkz.com.sorting.collectionconcept;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Collections;
 
 public class CountryTester {
 	public static void main(String args[]) {
@@ -33,7 +32,7 @@ public class CountryTester {
 		System.out.println(" Printing Array in the list acending order:" +CountryArrayList);
 
 		  // Collections.sort(CountryArrayList, Collections.reverseOrder());
-		Collections.reverseOrder();
+		Collections.reverse(CountryArrayList);
 
 			System.out.println(" Printing Array in the list decending order:" +CountryArrayList);
 
